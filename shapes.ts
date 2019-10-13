@@ -22,5 +22,7 @@ class Alumno extends Persona{
 let persona: Persona = new Persona(27, 1.89, '123141');
 let alumno: Alumno =new Alumno(30, 1.90, '23123','3213');
 
+//shapes
 persona = alumno;
-alumno = persona;
+
+alumno = persona;//error
